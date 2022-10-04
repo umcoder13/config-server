@@ -1,0 +1,79 @@
+server:
+  port: 8081
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: git@github.com:umcoder13/yml.git
+          default-label: main
+          ignore-local-ssh-settings: true
+          private-Key: |
+            -----BEGIN RSA PRIVATE KEY-----
+            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
+            -----END RSA PRIVATE KEY-----
+          host-key: AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBEmKSENjQEezOmxkZMy7opKgwFB9nkt5YRrYMjNuG5N87uRgg6CLrbo5wAdT/y6v0mKV0U2w0WZ2YB/++Tpockg=
+          host-key-algorithm: ecdsa-sha2-nistp256
+        encrypt:
+          enalbed: false
+
+encrypt:
+  key: june-coding
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    shutdown:
+      enabled: true
