@@ -67,7 +67,7 @@ spring:
           enabled: false
 
 encrypt:
-  key: june-coding
+  key: ${ENCRYPT_KEY}
 
 management:
   endpoints:
